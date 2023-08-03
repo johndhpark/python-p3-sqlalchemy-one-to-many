@@ -26,7 +26,6 @@ class Game(Base):
             f'title={self.title}, ' + \
             f'platform={self.platform})'
 
-
 class Review(Base):
     __tablename__ = 'reviews'
 
